@@ -6,7 +6,7 @@ if array.size == 0
   return nil
 else
   while i < array.size
-    narray << yield(array[i]) if yield(array[i]) == true
+    narray << array[i] if yield(array[i]) == true
     i += 1
   end
 end
