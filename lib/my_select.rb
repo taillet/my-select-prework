@@ -1,6 +1,7 @@
 def my_select(collection)
  # your code here!
  i = 0
+ narray = []
 if array.size == 0
   return nil
 else
@@ -9,5 +10,5 @@ else
     i += 1
   end
 end
-array
+narray
 end
